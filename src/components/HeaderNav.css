@@ -1,0 +1,151 @@
+
+.header-logo {
+  animation: App-logo-spin infinite 3s linear;
+  height: 60px;
+}
+
+.header-logo-static {
+  height: 100px;
+}
+
+@keyframes header-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.header-wrapper {
+  margin-top: 20px;
+}
+
+.flipkart-navbar-input {
+  padding: 11px 16px;
+  border-radius: 2px 0 0 2px;
+  border: 0 none;
+  outline: 0 none;
+  font-size: 15px;
+  width: 100%;
+  background-color: rgba(255,255,255,1) ;
+  color: rgba(0,0,0,1);
+  margin-right: 0 !important;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 0.9;
+}
+
+.flipkart-navbar-button {
+  background-color: rgba(255,255,255,1) ;
+  border-radius: 0 2px 2px 0;
+  border: 0 none;
+  outline: 0 none;
+  color: #565656;
+  padding: 10px 0;
+  height: 43px;
+  cursor: pointer;
+  margin-left: 0 !important;
+}
+
+.masthead {
+  /* margin-top:-60px; */
+  margin-bottom: 20px;
+  height: 300px;
+  background-image: url('../header3.jpg') !important;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #07223d;
+  /* opacity: 0; */
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 0px 0 50px;
+  color: white;
+}
+
+header.masthead .page-heading,
+header.masthead .site-heading {
+  text-align: center;
+}
+
+header.masthead .page-heading h1,
+header.masthead .site-heading h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading h1,
+  header.masthead .site-heading h1 {
+    font-size: 50px;
+  }
+  .masthead {
+    height: 300px;
+  }
+}
+
+header.masthead .post-heading h1 {
+  font-size: 20px;
+}
+
+header.masthead .post-heading .meta,
+header.masthead .post-heading .subheading {
+  line-height: 1.1;
+  display: block;
+}
+
+header.masthead .post-heading .subheading {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0px 0 30px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.subheading {
+  padding: 0;
+  margin-bottom: 20px !important;
+}
+
+header.masthead .post-heading .meta {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+header.masthead .post-heading .meta a {
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .post-heading h1 {
+    font-size: 45px;
+  }
+  header.masthead .post-heading .subheading {
+    font-size: 20px;
+  }
+}
